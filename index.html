@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB-HEX converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="control-panel">
+      <div class="adjust-rgb">
+        <div class="red">
+          <h1 class="r">R</h1>
+          <input type="range" min="0" max="255" value="0" class="slider" id="myRange-r">
+          <h1 class="code-r">0</h1>
+        </div>
+        <div class="green">
+          <h1 class="g">G</h1>
+          <input type="range" min="0" max="255" value="0" class="slider" id="myRange-g">
+          <h1 class="code-g">0</h1>
+        </div>
+        <div class="blue">
+          <h1 class="b">B</h1>
+          <input type="range" min="0" max="255" value="0" class="slider" id="myRange-b">
+          <h1 class="code-b">0</h1>
+        </div>
+      </div>
+      <div class="display-hex">
+        <h2 class="hex-code">
+          <span>#</span>
+          <span>00</span>
+          <span>00</span>
+          <span>00</span>
+        </h2>
+      </div>
+    </div>
+  </div>
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
